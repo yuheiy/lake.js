@@ -1,7 +1,7 @@
 {
   "name": "@yuheiy/lake.js",
   "description": "The library is a rewrite of lake.js.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Yuhei Yasuda <yuhei@ryden.co.jp>",
   "dependencies": {
     "babel-runtime": "^6.18.0",
@@ -13,6 +13,10 @@
     "babel-plugin-transform-runtime": "^6.15.0",
     "babel-preset-es2015": "^6.18.0"
   },
+  "files": [
+    "src/",
+    "lib/"
+  ],
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
